@@ -40,7 +40,7 @@ public class DataProviders {
     }
 
     @DataProvider
-    public Iterator<Object[]> objectDataProvider2() {
+    public Iterator<Object[]> objectDataProvider() {
         List<Object[]> list = new ArrayList<>();
         list.add(new Object[]{new Contact().setName("Name1").setLastName("LastName1").setPhone("1234567890").setEmail("admin1@gmail.com").setAddress("Germany, Berlin1").setDescription("Description1")});
         list.add(new Object[]{new Contact().setName("Name2").setLastName("LastName2").setPhone("1234567891").setEmail("admin2@gmail.com").setAddress("Germany, Berlin2").setDescription("Description2")});
