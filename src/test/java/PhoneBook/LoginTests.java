@@ -25,7 +25,7 @@ public class LoginTests extends TestBase {
     @Test(invocationCount = 1)
     public void loginExistedUserPositiveTest() {
         app.getUserHelper().clickOnLoginLink();
-        app.getUserHelper().typeEmail("portishead2025!!!!!@gmail.com");
+        app.getUserHelper().typeEmail("portishead2025@gmail.com");
         app.getUserHelper().typePassword("Password@1");
         app.getUserHelper().clickOnLoginButton();
         app.getUserHelper().checkLogin();
